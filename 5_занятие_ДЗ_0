@@ -1,0 +1,10 @@
+PS C:\Windows\system32> docker-compose --version
+Docker Compose version v2.39.2-desktop.1
+
+
+2. Убедитесь, что у вас УСТАНОВЛЕН docker compose(без шины) версия не ниже v2.24.X, для этого выполните командуdocker compose version
+
+PS C:\Windows\system32> docker compose version
+Docker Compose version v2.39.2-desktop.1
+
+установлен Docker Desktop, который для удобства создает симлинк (символическую ссылку). Обе команды — docker-compose и docker compose — указывают на один и тот же бинарный файл современного Docker Compose V2.
